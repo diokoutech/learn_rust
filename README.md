@@ -1,4 +1,4 @@
-# Learn Rust with Diokou Tech 
+# Learn _Rust_ with *Diokou Tech* 
 ## Compréhension 
 Rust est un langage de programmation compilé et fortement typé. Il est très rapide et performant. Crée par mozila firefox en 2010.
 Cargo est le gestionnaire de paquet de rust comme npm et composer pour les autres langages.
@@ -11,9 +11,9 @@ La fonction main est la fonction spéciale c'est toujour le premier code qui s'�
 Borow checker : il va introduire des propriétés de borrowsing (prêt) et ownship (appartenance). C'est une police d'accès aux variables. 
 
 ### Déclaration variables
-let age = 25;
-let mut adresse = "Yeumbeul", cette variable est mutable (modifiante);
-NB: Par défaut toutes variables sont immutables.
+let age = 25;  
+let mut adresse = "Yeumbeul", cette variable est mutable (modifiante);  
+NB: Par défaut toutes variables sont immutables.  
 ## Rappels
 ### Api 
 
