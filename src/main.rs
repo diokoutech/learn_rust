@@ -9,8 +9,7 @@ fn main() {
     // hello();
     show(nom);
 }
- fn hello()
-{   
+ fn hello() {   
     let apples = "Apples";
     println!("Tech for good {}", &apples);
     // &apples = "test";
@@ -23,7 +22,6 @@ fn main() {
 
     println!("Votre nom est {} et votre age est {}", nom_complet, age);
 }
-
 fn show(msg : String){
     println!("Votre nom is {}", msg);
-}
+}   
