@@ -14,7 +14,18 @@ Borow checker : il va introduire des propriétés de borrowsing (prêt) et ownsh
 ### Déclaration variables
 `let age = 25`;  
 `let mut adresse = "Yeumbeul"` , cette variable est mutable (modifiante);  
-NB: Par défaut toutes variables sont immutables.  
+NB: Par défaut toutes variables sont immutables.
+## Type de données
+Nous avons des types de données scalaires et composés.
+### Scalaires
+* Entiers
+Longueur Signé Non Signé  
+8 bits    i8   	  u8  
+16 bits   i16     u16  
+32 bits   i32     u32 
+64 bits   i64     u64  
+128 bits  i128    u128  
+cambre    isize   usize   
 ## Rappels
 ### Api 
 

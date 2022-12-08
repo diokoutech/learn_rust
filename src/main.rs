@@ -5,8 +5,7 @@ fn main() {
     // use comments multiples lines
     println!("Donner votre nom");
     let mut nom = String::new();
-    io::stdin().read_line(&mut nom).expect("Erreur de lecture");
-    // hello();
+    println!("Donne votre age");
     show(nom);
 }
  fn hello() {   
@@ -19,7 +18,6 @@ fn main() {
     io::stdin().read_line(&mut age).expect("Erreur de lecture ");
     println!("Donner votre nom complet");
     io::stdin().read_line(&mut nom_complet).expect("Erreur de lecture");
-
     println!("Votre nom est {} et votre age est {}", nom_complet, age);
 }
 fn show(msg : String){
