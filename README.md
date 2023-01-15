@@ -8,9 +8,10 @@ Cargo est le gestionnaire de paquet de rust comme npm et composer pour les autre
 `cargo check` => Permet de verifier le code s'il n'y a pas d'erreurs avant de générer le build.  
 Le fichier cargo.toml contient toutes les dépendances du projet. il similaire a pom.xml pour celui qui vient de l'univers java et de package.json si vous venez du monde JS.
 La fonction main est la fonction spéciale c'est toujour le premier code qui s'éxécute.
+Les dépendances de Rust : https://crates.io/
 ## Concepts
 Borow checker : il va introduire des propriétés de borrowsing (prêt) et ownship (appartenance). C'est une police d'accès aux variables. 
-
+Les noms des fonctions doivent être en snakeCase
 ### Déclaration variables
 `let age = 25`;  
 `let mut adresse = "Yeumbeul"` , cette variable est mutable (modifiante);  
@@ -30,7 +31,5 @@ cambre    isize   usize
 ### Api 
 
 L’API (interface de programmation d’applications) définit la manière dont deux logiciels peuvent se connecter et communiquer entre eux via leurs points de terminaison. Par exemple, votre travail sur les API pourrait être utilisé pour rester en contact avec des parties externes (clients ou partenaires de l’entreprise). La plupart des API sont organisées autour de règles ou de normes, comme REST ou GraphQL, afin que tout le monde sache comment les utiliser.
-
 ### Microservice 
-
 Les microservices sont des éléments de logiciel qui exécutent une tâche unique et indépendante au sein d’une application plus étendue. Ils s’opposent aux applications monolithiques car, plutôt que de construire des applications web comme une seule unité composée d’une interface utilisateur, d’une application côté serveur et d’une base de données, ils décomposent chaque partie de l’application en plusieurs circuits imprimés reliés par des API.
