@@ -1,0 +1,1 @@
+C:\Users\dell\Documents\workspace\Learn\rust\learn_rust\Projects\Guessing_Game\target\debug\Guessing_Game.exe: C:\Users\dell\Documents\workspace\Learn\rust\learn_rust\Projects\Guessing_Game\src\main.rs
